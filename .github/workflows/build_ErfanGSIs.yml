@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://down.ws59.cn/btuwvon/2/vg/2vgabtuwvon?cdn_sign=1596435063-90-0-0d522db2fee87f0ffded2dec07dcd0ba&response-content-disposition=attachment%3B%20filename%3D%22Realme%20Q%20%E5%B7%B2%E8%A7%A3%E5%AF%86%E3%81%AE%E5%8C%85.zip%22%3B%20filename%2A%3Dutf-8%27%27Realme%2520Q%2520%25E5%25B7%25B2%25E8%25A7%25A3%25E5%25AF%2586%25E3%2581%25AE%25E5%258C%2585.zip
+  ROM_URL: https://down.ws59.cn/btuwvon/2/vg/2vgabtuwvon?cdn_sign=1596443054-40-0-cb1f7179c6cdcb0c7eb8b813b9e90b05&response-content-disposition=attachment%3B%20filename%3D%22Realme%20Q%20%E5%B7%B2%E8%A7%A3%E5%AF%86%E3%81%AE%E5%8C%85.zip%22%3B%20filename%2A%3Dutf-8%27%27Realme%2520Q%2520%25E5%25B7%25B2%25E8%25A7%25A3%25E5%25AF%2586%25E3%2581%25AE%25E5%258C%2585.zip
   ROM_NAME: MIUI For Android 10
   TZ: Asia/Shanghai
 
