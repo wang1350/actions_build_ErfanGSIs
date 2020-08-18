@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://bigota.d.miui.com/20.8.5/miui_LAVENDER_20.8.5_03fcb5d4ac_10.0.zip
+  ROM_URL: http://bigota.d.miui.com/20.8.13/miui_LAVENDER_20.8.13_ffd98fa8a1_10.0.zip
   ROM_NAME: MIUI For Android 10
   TZ: Asia/Shanghai
 
@@ -41,7 +41,7 @@ jobs:
             sudo -E apt-get -qq update
             sudo -E apt-get -qq install git openjdk-8-jdk wget
        
-       - name: Clone ErfanGSI Source Code
+       - name: Clone Luke's ErfanGSI Source Code
          run: git clone --recurse-submodules https://github.com/lukejacksonbristot/ErfanGSIs.git
        
        - name: Setting up ErfanGSI requirements
