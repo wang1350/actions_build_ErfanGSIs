@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://hugeota.d.miui.com/20.8.20/miui_LAVENDER_20.8.20_2caa79398b_10.0.zip
+  ROM_URL: https://bigota.d.miui.com/V12.0.1.0.QFGCNXM/miui_LAVENDER_V12.0.1.0.QFGCNXM_b44f121fca_10.0.zip
   ROM_NAME: MIUI For Android 10
   TZ: Asia/Shanghai
 
