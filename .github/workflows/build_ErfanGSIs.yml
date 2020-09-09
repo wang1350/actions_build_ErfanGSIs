@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.1.0.QFGCNXM/miui_LAVENDER_V12.0.1.0.QFGCNXM_b44f121fca_10.0.zip
-  ROM_NAME: MIUI For Android 10
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/16xs/8.20.6.30/cn_beta/20200715101736/f31452ed/update.zip
+  ROM_NAME: Flyme For Android 10
   TZ: Asia/Shanghai
 
 jobs:
