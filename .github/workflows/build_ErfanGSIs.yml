@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://down.ws59.cn/h7d848e/3/os/3os6h7d848e?cdn_sign=1602132485-23-0-965a46c4207293a99a021bf8ecf57857&response-content-disposition=attachment%3B%20filename%3D%22miui_RedmiNote7_20.3.26_10.0_ZhuiMeng_5b21e42fe7.zip%22%3B%20filename%2A%3Dutf-8%27%27miui_RedmiNote7_20.3.26_10.0_ZhuiMeng_5b21e42fe7.zip
-  ROM_NAME: MIUI For Android 10
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/note9/8.20.9.30/cn_daily/20200930003719/61510e16/update.zip
+  ROM_NAME: Flyme For Android 10
   TZ: Asia/Shanghai
 
 jobs:
@@ -41,7 +41,7 @@ jobs:
             sudo -E apt-get -qq update
             sudo -E apt-get -qq install git openjdk-8-jdk wget
        
-       - name: Clone Source Code
+       - name: Clone Edited Source Code
          run: git clone --recurse-submodules https://github.com/lukejacksonbristot/ErfanGSIs.git
        
        - name: Setting up Fit-GSI requirements
