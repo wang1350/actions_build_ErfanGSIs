@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://down.ws59.cn/y9n1aco/3/r5/3r5vy9n1aco?cdn_sign=1602855175-78-0-846bd1b711fa6c65ea10e0b44d33ce1f&response-content-disposition=attachment%3B%20filename%3D%22miui_RedmiNote7_20.10.13_10.0_ZhuiMeng_334aef7154.zip%22%3B%20filename%2A%3Dutf-8%27%27miui_RedmiNote7_20.10.13_10.0_ZhuiMeng_334aef7154.zip
+  ROM_URL: https://down.ws59.cn/y9n1aco/3/r5/3r5vy9n1aco?cdn_sign=1602893497-8-0-e824473f27eed1f5334e9bedc7ec2aca&response-content-disposition=attachment%3B%20filename%3D%22miui_RedmiNote7_20.10.13_10.0_ZhuiMeng_334aef7154.zip%22%3B%20filename%2A%3Dutf-8%27%27miui_RedmiNote7_20.10.13_10.0_ZhuiMeng_334aef7154.zip
   ROM_NAME: MIUI For Android 10
   TZ: Asia/Shanghai
 
@@ -62,7 +62,8 @@ jobs:
        - name: Upload GSI to Transfer.sh
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer trs final/GSI-Final.zip
+              ./transfer wet final/GSI-Final.zip
+              ./transfer cow final/GSI-Final.zip
 
          
             
